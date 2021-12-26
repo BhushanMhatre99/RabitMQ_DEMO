@@ -11,12 +11,14 @@
 <body>
     <div class="container" style="margin-top: 200px;">
         <div class="col-md-6 mt-5 offset-md-3">
+            <form action="/upload" method="post">
             <div class="mb-3">
              <center>   <label for="formFile" class="form-label">Default file input example</label>
-                <input class="form-control" type="file" id="formFile"></center>
+                <input class="form-control" type="file" name = "csv_file" id="formFile"></center>
               </div>
         </div>
         <center><button type="submit" class="btn btn-primary">Submit</button></center>
     </div>
+</form>
 </body>
 </html>
